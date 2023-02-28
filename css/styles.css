@@ -106,6 +106,15 @@ transition-property: color;
      }
     
  }
+ .page-header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .page-header{
+    padding-top: 25.43px;
+    padding-bottom: 25.96px;
+ }
  /*
  .solutions{
 background-color: var(--navy-blue-color);

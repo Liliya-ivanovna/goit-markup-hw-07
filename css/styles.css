@@ -100,7 +100,7 @@ width: 100%;
  }
  @media screen and (min-width:480px) {
     .container-m{
-        max-width: 428px;
+        width: 428px;
         margin-left: auto;
         margin-right: auto;}
  }
@@ -114,6 +114,15 @@ width: 100%;
         width: 1440px;
     }
  }
+ @media screen  and (max-width:767px){
+    .menu{
+       display: none;
+    }
+    .header-list{
+       display: none;
+    }  
+   
+}
 @media screen and (max-width:1199px){
     .header-list{
         display: none;
@@ -121,15 +130,7 @@ width: 100%;
 }
 
  
- @media screen  and (max-width:767px){
-     .menu{
-        display: none;
-     }
-     .header-list{
-        display: none;
-     }  
-    
- }
+
  .page-header-container{
     display: flex;
     align-items: center;

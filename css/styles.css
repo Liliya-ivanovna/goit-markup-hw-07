@@ -25,7 +25,7 @@ line-height: 1.5;
 letter-spacing: 0.03em;
 color: var(--navy-blue-color);
 text-decoration: none;
-margin-right: 76px;
+
 }
 .accent{
 color: var(--iris-color);
@@ -115,8 +115,8 @@ transition-property: color;
     justify-content: space-between;
  }
  .page-header{
-    padding-top: 25.43px;
-    padding-bottom: 25.96px;
+    padding-top: 25px;
+    padding-bottom: 25px;
  }
  .mobile-menu-open{
     background-color: transparent;

@@ -1,4 +1,4 @@
-/*
+
 :root {
     --navy-blue-color: #2E2F42;
     --body-background-color:  #FFFFFF;
@@ -93,6 +93,19 @@ transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
 transition-property: color;
 }
+@media screen and (max-width:1199px){
+    .header-list{
+        display: none;
+     }  
+}
+
+ 
+ @media screen  and (max-width:767px){
+     .menu{
+        display: none;
+     }
+ }
+ /*
  .solutions{
 background-color: var(--navy-blue-color);
 background-position: center;
@@ -818,4 +831,25 @@ color: var(--ocean-color);
     border-radius: 2px;
     background-color: var(--ocean-color);
     left: 0;
-}
+}*/
+ .container-m{
+    padding-left: 15px;
+    padding-right: 15px;
+ }
+ @media screen and (min-width:480px) {
+    .container-m{
+        width: 428px;
+        margin-left: auto;
+        margin-right: auto;}
+ }
+ @media  screen and (min-width:768px)  {
+    .container-m{
+        width: 768px;
+    } 
+ }
+ @media  screen and (min-width:1200px) {
+    .container-m{
+        width: 1440px;
+    }
+ }
+ 

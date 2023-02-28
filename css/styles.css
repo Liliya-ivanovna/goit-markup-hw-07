@@ -94,12 +94,13 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 transition-property: color;
 }
 .container-m{
-    padding-left: 15px;
-    padding-right: 15px;
+
+    padding-left: 16px;
+    padding-right: 16px;
  }
  @media screen and (min-width:480px) {
     .container-m{
-        width: 428px;
+        max-width: 428px;
         margin-left: auto;
         margin-right: auto;}
  }

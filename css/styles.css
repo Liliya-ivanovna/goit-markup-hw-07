@@ -160,10 +160,6 @@ width: 100%;
     display: flex;
     margin-right: auto;
 }
-.menu{
-    display: flex;
-    align-items: center;
-}
 .address-menu{
     display: flex;
     align-items: center;

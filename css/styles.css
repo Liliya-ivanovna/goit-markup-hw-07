@@ -104,6 +104,9 @@ transition-property: color;
      .menu{
         display: none;
      }
+     .header-list{
+        display: none;
+     }  
     
  }
  .page-header-container{

@@ -283,11 +283,11 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .soc-mobile{
     display: flex;
+    justify-content: space-between;
     gap: 56px;
 }
 .mobile-menu-container{
     position: relative;
-    padding-left: 40px;
     padding-top: 80px;
     padding-bottom: 40px;
 }

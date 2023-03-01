@@ -201,6 +201,8 @@ border: 1px solid rgba(0, 0, 0, 0.1);
     fill: var(--body-background-color); 
 }
 .mobile-menu-link{
+    padding-top: 80px;
+    padding-left: 40px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;

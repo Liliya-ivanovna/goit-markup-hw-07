@@ -199,6 +199,14 @@ border: 1px solid rgba(0, 0, 0, 0.1);
     background: var(--ocean-color);
     fill: var(--body-background-color); 
 }
+.mobile-menu-link{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+ text-decoration: none;
+    color: var(--navy-blue-color);
+}
  /*
  .menu{
     display: flex;

@@ -94,7 +94,8 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 transition-property: color;
 }
 .container{
-width: 100%;
+    position: relative;
+    width: 100%;
     padding-left: 16px;
     padding-right: 16px;
  }

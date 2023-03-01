@@ -200,9 +200,14 @@ border: 1px solid rgba(0, 0, 0, 0.1);
     background: var(--ocean-color);
     fill: var(--body-background-color); 
 }
-.mobile-menu-link{
+.mobile-menu-list{
+    display: flex;
     padding-top: 80px;
     padding-left: 40px;
+    flex-direction: column;
+    gap: 40px;
+}
+.mobile-menu-link{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -215,6 +220,13 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mobile-menu-link:is(:hover,:focus){
     color:  var(--ocean-color);  
+}
+.address-list{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-left: 40px;
+
 }
 .link-mail-post-mobile{
     font-weight: 500;
@@ -261,7 +273,6 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .soc-mobile{
     display: flex;
-    justify-content: center;
     gap: 56px;
     padding-left: 40px;
     padding-bottom: 40px;

@@ -219,7 +219,6 @@ border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .mobile-menu-link{
-    display: block;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -256,10 +255,11 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     color:var(--iris-color);
 }
 .phone-number-mobile{
+    display: block;
     font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
-letter-spacing: 0.02em;
+letter-spacing: normal;
 color: var(--slate-color);
 text-decoration: none;
 transition-property: color;
@@ -288,7 +288,6 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     display: flex;
     justify-content: space-between;
     gap: 56px;
-    padding-bottom: 40px;
 }
 .mobile-menu-container{
     position: relative;

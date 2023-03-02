@@ -129,6 +129,12 @@ transition-property: color;
     .solutions{
         display: none;
     }
+    .our-work{
+        display: none;
+    }
+    .team-list{
+        display: none;
+    }
    
 }
 @media screen and (max-width:1199px){
@@ -380,6 +386,75 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     letter-spacing: 0.02em;
     color: var(--slate-color);
     
+    }
+    .team-list-mobile{
+        background: var(--cloud-color);
+        padding-bottom: 128px;
+        padding-top: 96px;
+        text-align: center;
+    }
+    .team-mobile{
+        display: flex;
+        flex-direction: column;
+        gap: 72px;
+        align-items: center;
+    }
+        .card-text-mobile{
+        padding-top: 32px;
+        padding-bottom: 32px;
+    
+    }
+    .team-header-mobile{
+    font-weight:700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue-color);
+    margin-bottom: 72px;
+    text-transform: capitalize;
+
+    }
+    .team-name-mobile{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: inherit;
+        text-align: center;    
+    }
+    .card-link-mobile:is(:hover,:focus){
+        background:var(--ocean-color);
+    }
+    .card-link-mobile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      border-radius: 50%;
+    width: 40px;
+    height:40px;
+    background:var(--iris-color);
+    transition-property:background ;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+    }
+    .card-mobile{
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+        margin-top: 8px;
+    }
+    .borders-text-mobile{
+      box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+      border-radius: 0px 0px 4px 4px;
+      background: var(--body-background-color);
+    }
+    .speciality-mobile{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate-color);
+    margin-top: 8px;
     }
 
  /*

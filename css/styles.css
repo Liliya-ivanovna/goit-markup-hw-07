@@ -217,9 +217,10 @@ border: 1px solid rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
     gap: 40px;
-    padding-bottom: 284px;
 }
+
 .mobile-menu-link{
+    display: block;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -239,12 +240,14 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     gap: 40px;
 }
 .link-mail-post-mobile{
+    display: block;
     font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--slate-color);
 text-decoration: none;
+margin-bottom: 48px;
 transition-property: color;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -285,6 +288,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     display: flex;
     justify-content: space-between;
     gap: 56px;
+    padding-bottom: 40px;
 }
 .mobile-menu-container{
     position: relative;

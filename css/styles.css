@@ -177,6 +177,11 @@ transition-property:opacity, visibility;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
 
 }
+.flex{
+    display: flex;
+    flex-direction: column;
+
+}
 .mobile-menu.is-open{
 opacity: 1;
 visibility: visible;
@@ -238,6 +243,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     flex-direction: column;
     gap: 40px;
     margin-bottom: 48px;
+    margin-top: auto;
 }
 .link-mail-post-mobile{
     font-weight: 500;

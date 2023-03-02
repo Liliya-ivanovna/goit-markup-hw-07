@@ -299,7 +299,43 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     padding-top: 24px;
     padding-bottom: 40px;
 }
+.solutions-mobile {
+        background-color: var(--navy-blue-color);
+        background-position: center;
+        background-repeat: no-repeat;
+        text-align: center;
+        padding: 112px 0;
+        background-size: cover;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 428px;
+        height: 432px;
+        background-image:linear-gradient(rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7) 100%),url(../images/people-office\ 1.jpg); 
+}
+.b-text-mobile:is(:hover,:focus){
+    background: var(--ocean-color);
+}
 
+.b-text-mobile{ 
+padding-top: 16px; 
+padding-bottom: 16px; 
+padding-right: 32px;
+padding-left: 32px;
+font-family : inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: var(--body-background-color);
+background: var(--iris-color);
+border: none;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+transition-property: background;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+}
  /*
  .menu{
     display: flex;

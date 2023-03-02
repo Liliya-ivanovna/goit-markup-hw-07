@@ -101,7 +101,7 @@ transition-property: color;
  }
  @media screen and (min-width:480px) {
     .container{
-        max-width: 428px;
+        width: 428px;
         margin-left: auto;
         margin-right: auto;}
  }
@@ -292,7 +292,6 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     display: flex;
     max-width: 428px;
     justify-content: space-between;
-    gap: 56px;
 }
 .mobile-menu-container{
     position: relative;

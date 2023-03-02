@@ -238,7 +238,6 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     gap: 40px;
 }
 .link-mail-post-mobile{
-    display: block;
     font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -254,7 +253,6 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     color:var(--iris-color);
 }
 .phone-number-mobile{
-    display: block;
     font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
@@ -291,7 +289,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 .mobile-menu-container{
     position: relative;
     padding-top: 24px;
-    padding-bottom: 32px;
+    padding-bottom: 40px;
 }
 
  /*

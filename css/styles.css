@@ -349,6 +349,32 @@ transition-property: background;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
 }
+.features-mobile{
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+.features-list-mobile{
+    display: flex;
+    flex-direction: column;
+    gap: 72px ;
+}
+.features-header-mobile{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue-color);
+    margin-bottom: 8px;
+    margin-top: 72px;
+    }
+    .features-text-mobile{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate-color);
+    
+    }
+
  /*
  .menu{
     display: flex;

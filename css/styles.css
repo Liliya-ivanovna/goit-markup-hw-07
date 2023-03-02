@@ -284,6 +284,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .soc-mobile{
     display: flex;
+    max-width: 348px;
     justify-content: space-between;
     gap: 56px;
 }

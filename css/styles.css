@@ -180,6 +180,7 @@ transition-property:opacity, visibility;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    overflow-y: auto;
 }
 .mobile-menu.is-open{
 opacity: 1;

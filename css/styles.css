@@ -823,7 +823,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     .social-list{
 display: flex;
 gap: 16px;
-    }
+    }*/
 h1,
 h2,
 h3,
@@ -846,7 +846,7 @@ address{
 }
 button{
     cursor: pointer;
-}
+}/*
 .container{
     width: 1158px;
     margin-left: auto;

@@ -101,7 +101,7 @@ transition-property: color;
  }
  @media screen and (min-width:480px) {
     .container{
-        width: 428px;
+        max-width: 428px;
         margin-left: auto;
         margin-right: auto;}
  }
@@ -180,7 +180,7 @@ transition-property:opacity, visibility;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    overflow-y: auto;
+    overflow-y:auto ;
 }
 .mobile-menu.is-open{
 opacity: 1;
@@ -266,7 +266,6 @@ line-height: 1.11;
 letter-spacing: normal;
 color: var(--slate-color);
 text-decoration: none;
-text-transform: capitalize;
 transition-property: color;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -293,6 +292,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     display: flex;
     max-width: 428px;
     justify-content: space-between;
+    gap: 56px;
 }
 .mobile-menu-container{
     position: relative;

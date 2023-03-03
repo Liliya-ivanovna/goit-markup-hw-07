@@ -703,7 +703,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         text-align: center;
         letter-spacing: 0.02em;
         color: var(--navy-blue-color);
-        margin-top:24px;
+        margin-top:48px;
         margin-bottom: 8px;
         }
         .name-label-mobile{
@@ -743,11 +743,13 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         .modal-form-mobile{
             display: flex;
             flex-direction: column;
+            align-items: center;
+            align-content: center;
         }
         .modal-input-mobile{
             background-color: transparent;
         border-radius: 4px;
-        width: 100%;
+        width: 360px;
         height: 40px;
         border: 1px solid rgba(33, 33, 33, 0.2);
         font-weight: 400;
@@ -776,7 +778,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
             margin-bottom: 4px;
         }
         .comment-message-mobile{
-            width: 100%;
+            width: 360px;
             height: 120px;
             border: 1px solid rgba(33, 33, 33, 0.2);
         border-radius: 4px;
@@ -803,6 +805,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
             min-width: 169px;
             height: 56px;
             padding: 16px 32px;
+            margin-top: 24px;
         align-self: center;
         background:var(--iris-color);
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -820,6 +823,30 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         }
         .modal-form-submit-mobile:is(:hover,:focus){
             background:var(--ocean-color);
+        }
+        .chekbox-mobile:focus+.modal-form-check-mobile::before{
+            background:var(--ocean-color);
+            border: 1.25px solid var(--ocean-color);
+            border-radius: 2px;
+        }
+        .chekbox-mobile:checked+.modal-form-check-mobile::before{
+            background-image: url(../images/Property\ 1=click.svg);
+            background-size: cover;
+            background-position: center ;
+            background-repeat: no-repeat;
+            background-color: var(--ocean-color);
+            border: 1.25px solid var(--ocean-color);
+        }
+        .modal-form-check-mobile::before{
+            width: 16px;
+        height: 16px;
+        border: 1.25px solid var(--navy-blue-color);
+        border-radius: 2px;
+            display: block;
+            content: '';
+            cursor: pointer;
+            margin-right: 8px;
+            background: var(--body-background-color);
         }
         .chekbox-mobile:focus+.modal-form-check-mobile::before{
             background:var(--ocean-color);

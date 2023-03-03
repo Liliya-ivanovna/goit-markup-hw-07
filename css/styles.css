@@ -792,22 +792,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
             outline: none;
             border-color: var(--iris-color);
         }
-        .active{
-            position: relative;
-        display: block;
-        color: var(--ocean-color);
-        }
-        .active::after{
-            position: absolute;
-            content: "";
-            display:block;
-            bottom: -28px;
-            width: 100%;
-            height: 4px;
-            border-radius: 2px;
-            background-color: var(--ocean-color);
-            left: 0;
-        }
+        
         .modal-form-check-mobile{
             font-size: 12px;
             line-height: 1.16;

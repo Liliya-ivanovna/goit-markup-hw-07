@@ -155,10 +155,7 @@ transition-property: color;
     align-items: center;
     justify-content: space-between;
  }
- .page-header{
-    padding-top: 25px;
-    padding-bottom: 25px;
- }
+
  .page-header-container{
     display: flex;
     justify-content: space-between;
@@ -312,11 +309,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     justify-content: center;
     gap: 56px;
 }
-.mobile-menu-container{
-    position: relative;
-    padding-top: 24px;
-    padding-bottom: 40px;
-}
+
 .solutions-mobile {
         background-color: var(--navy-blue-color);
         background-position: center;

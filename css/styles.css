@@ -167,12 +167,7 @@ transition-property: color;
    .backdrop{
     display: none;
    }
-   .style-footer-mobile{
-    display: none;
-   }
-   .backdrop-mobile{
-    display: none;
-   }
+
 }
 @media screen and (max-width:1199px){
     .header-list{
@@ -608,9 +603,6 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
             gap: 72px;
             align-items: center;
             text-align: center;
-        }
-        .subscribe-cont{
-            margin-left: 80px;
         }
         .subscribe-mobile{
             font-weight: 500;

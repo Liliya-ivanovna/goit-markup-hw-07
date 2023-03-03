@@ -642,6 +642,215 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
            gap: 16px;
           
         }
+        .modal-mobile{
+            position: absolute;
+            min-height: 586px;
+            width: 392px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: var(--white-color);
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 4px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        }
+        
+        .backdrop-mobile.is-hidden{
+            opacity: 0;
+            pointer-events: none;
+            visibility: hidden;
+        }
+        .backdrop-mobile{
+            position: fixed;
+            z-index: 100;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(46, 47, 66, 0.4);
+            transition-property: opacity,visibility;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+        }
+        .modal-btn-mobile{
+            position: absolute;
+            background: var(--cornflower-color);
+        border: 1px solid rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0;
+            width: 24px;
+            height: 24px;
+            right: 24px;
+            padding: 0;
+            border-radius: 50%;
+            cursor: pointer;
+            transition-property:background,fill ;
+            transition-duration: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+        }
+        
+        .modal-btn-mobile:is(:hover,:focus){
+            background: var(--ocean-color);
+            fill: var(--body-background-color);
+        }
+        .modal-title-mobile{
+            font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: var(--navy-blue-color);
+        margin-top:24px;
+        margin-bottom: 8px;
+        }
+        .name-label-mobile{
+            margin-top: 8px;  
+        }
+        .comment-message-mobile{
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 1.16;
+            letter-spacing: 0.01em;
+            color: rgba(117, 117, 117, 0.5);
+        }
+        .comment-message-mobile ::placeholder{
+        color: rgba(117, 117, 117, 0.5);
+        }
+        .modal-form-check{
+            font-size: 12px;
+            line-height: 1.16;
+            letter-spacing: 0.04em;
+            color: #757575;
+            
+        }
+        .modal-form-input-wrapper-mobile{
+            position: relative;
+            display: block;
+        }
+        .modal-form-icon-mobile{
+            display: block;
+            position: absolute;
+            top: 50%;
+            left: 19px;
+            transform: translate(0, -50%);
+            transition-property: fill;
+            transition-duration: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+        }
+        .modal-form-mobile{
+            display: flex;
+            flex-direction: column;
+        }
+        .modal-input-mobile{
+            background-color: transparent;
+        border-radius: 4px;
+        width: 100%;
+        height: 40px;
+        border: 1px solid rgba(33, 33, 33, 0.2);
+        font-weight: 400;
+            font-size: 12px;
+            line-height: 1.16;
+            letter-spacing: 0.01em;
+            transition-property: border-color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+        
+        }
+        .modal-input-mobile:focus{
+            outline: none;
+            border-color:var(--iris-color);
+        }
+        .modal-input-mobile:focus+.modal-form-icon-mobile{
+            fill: var(--iris-color);
+        }
+        .modal-form-input-desc-mobile{
+            display: block;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 1.16;
+            letter-spacing: 0.01em;
+            color:var(--light-slate);
+            margin-bottom: 4px;
+        }
+        .comment-message-mobile{
+            width: 100%;
+            height: 120px;
+            border: 1px solid rgba(33, 33, 33, 0.2);
+        border-radius: 4px;
+        margin-bottom: 18px;
+        padding: 8px 16px;
+        resize: none;
+        transition-property: border-color ;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        
+        }
+        .comment-message-mobile:focus{
+            outline: none;
+            border-color: var(--iris-color);
+        }
+        .active{
+            position: relative;
+        display: block;
+        color: var(--ocean-color);
+        }
+        .active::after{
+            position: absolute;
+            content: "";
+            display:block;
+            bottom: -28px;
+            width: 100%;
+            height: 4px;
+            border-radius: 2px;
+            background-color: var(--ocean-color);
+            left: 0;
+        }
+        .modal-form-check-mobile{
+            font-size: 12px;
+            line-height: 1.16;
+            letter-spacing: 0.04em;
+            color: #757575;
+        }
+        .modal-form-submit-mobile{
+            min-width: 169px;
+            height: 56px;
+            padding: 16px 32px;
+        align-self: center;
+        background:var(--iris-color);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color:var(--body-background-color);
+        border: none;
+        transition-property:  background;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .modal-form-submit-mobile:is(:hover,:focus){
+            background:var(--ocean-color);
+        }
+        .chekbox-mobile:focus+.modal-form-check-mobile::before{
+            background:var(--ocean-color);
+            border: 1.25px solid var(--ocean-color);
+            border-radius: 2px;
+        }
+        .chekbox-mobile:checked+.modal-form-check-mobile::before{
+            background-image: url(../images/Property\ 1=click.svg);
+            background-size: cover;
+            background-position: center ;
+            background-repeat: no-repeat;
+            background-color: var(--ocean-color);
+            border: 1.25px solid var(--ocean-color);
+        }
+        
+         
  /*
  .menu{
     display: flex;

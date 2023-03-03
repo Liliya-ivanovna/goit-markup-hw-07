@@ -389,7 +389,7 @@
         </form></div>
     </div>
         </footer>
-    <!-- <footer class="style-footer">
+  <footer class="style-footer">
     <div class="container  footer-container">
         <div class="footer-logo">
         <a class="logotype" href="./index.html"><span class="accent">WEB</span>STUDIO</a>
@@ -421,7 +421,39 @@
 </div>
    </div>
     </footer>
-    <div class="backdrop is-hidden " data-modal>
+    <div class="backdrop-mobile container is-hidden " data-modal>
+        <div class="modal-mobile">
+        <button class="modal-btn-mobile " data-modal-close type="button">
+        <svg width="8px" height="8px">
+            <use href="./images/icons.svg#icon-close-black-18dp-2-1-2"></use>
+        </svg>
+        </button>
+        <p class="modal-title-mobile">Leave your contacts and we will call you back</p>
+        <form class="modal-form-mobile">
+            <label for="name" class="name-label-mobile">
+           <span class="modal-form-input-desc-mobile">Name</span>
+           <span class="modal-form-input-wrapper-mobile">
+                   <input type="text" name="user-name" id="name" class="modal-input-mobile" pattern="[a-z A-Z А-Я а-я]+" minlength="2"/>
+            <svg width="18px" height="18" class="modal-form-icon-mobile">
+                <use href="./images/icons.svg#icon-person-black-18dp-1" ></use>
+            </svg></span></label>
+            <label for="phone" class="name-label-mobile">
+                <span class="modal-form-input-desc-mobile">Phone</span>
+                <span class="modal-form-input-wrapper-mobile"><input type="tel" name="user-phone" class="modal-input-mobile" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" title="xxx-xxx-xx-xx"/><svg width="18px" height="18px" class="modal-form-icon-mobile">
+                <use href="./images/icons.svg#icon-phone-black-18dp-1"></use></svg></span></label>
+                 <label for="email" class="name-label-mobile">
+                    <span class="modal-form-input-desc-mobile">Email</span>
+                    <span class="modal-form-input-wrapper-mobile"><input type="text" id="email" name="user-email" class="modal-input-mobile"/><svg class="modal-form-icon-mobile" width="18px" height="18">
+                    <use href="./images/icons.svg#icon-email-black-18dp-1"></use></svg></span></label>
+                    <label for="comment" class="name-label-mobile">
+                       <span class="modal-form-input-desc-mobile">Comment</span>
+                       <textarea name="user-message" placeholder="Text input" id="comment" class="comment-message-mobile"></textarea></label>
+          <input type="checkbox" name="user-comment" id="user-comment" class="chekbox-mobile visually-hidden"/><label for="user-comment" class="modal-form-check-mobile">I accept the terms and conditions of the&nbsp;<a href="#">Privacy Policy</a></label>
+                <button type="submit" class="modal-form-submit-mobile">Send</button>
+        </form>
+        </div>
+        </div>
+     <!--  <div class="backdrop is-hidden " data-modal>
         <div class="modal">
         <button class="modal-btn " data-modal-close type="button">
         <svg width="8px" height="8px">
@@ -452,8 +484,8 @@
                 <button type="submit" class="modal-form-submit">Send</button>
         </form>
         </div>
-        </div>
-        <script src="./js/modal.js"></script>-->
+        </div>-->
+        <script src="./js/modal.js"></script>
         <script src="./js/mobile-menu.js"></script>
 </body>
 </html>

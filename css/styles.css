@@ -794,14 +794,11 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
             line-height: 1.16;
             letter-spacing: 0.04em;
             color: #757575;
-        }
-        .modal-form-check-mobile{
             display: flex;
             align-items: center;
             font-weight: 400;
         font-size: 12px;
         line-height: 1.16;
-        
         }
         .modal-form-submit-mobile{
             min-width: 169px;

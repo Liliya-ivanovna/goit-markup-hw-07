@@ -122,7 +122,7 @@ transition-property: color;
     padding-left: 16px;
     padding-right: 16px;
  }
- @media screen and (min-width:428px) {
+ @media screen and (min-width:480px) {
     .container{
         width: 428px;
         margin-left: auto;
@@ -165,6 +165,12 @@ transition-property: color;
     display: none;
    }
    .backdrop{
+    display: none;
+   }
+   .style-footer-mobile{
+    display: none;
+   }
+   .backdrop-mobile{
     display: none;
    }
 }

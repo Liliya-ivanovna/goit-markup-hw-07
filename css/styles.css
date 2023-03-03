@@ -795,6 +795,14 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
             letter-spacing: 0.04em;
             color: #757575;
         }
+        .modal-form-check-mobile{
+            display: flex;
+            align-items: center;
+            font-weight: 400;
+        font-size: 12px;
+        line-height: 1.16;
+        
+        }
         .modal-form-submit-mobile{
             min-width: 169px;
             height: 56px;
@@ -1467,11 +1475,6 @@ background: var(--ocean-color);
     font-weight: 400;
 font-size: 12px;
 line-height: 1.16;
-letter-spacing: 0.04em;
-color: #757575;
-margin-bottom: 24px;
-
-}
 .modal-form-check::before{
     width: 16px;
 height: 16px;
@@ -1482,7 +1485,12 @@ border-radius: 2px;
     cursor: pointer;
     margin-right: 8px;
     background: var(--body-background-color);
+}letter-spacing: 0.04em;
+color: #757575;
+margin-bottom: 24px;
+
 }
+
 .chekbox:focus+.modal-form-check::before{
     background:var(--ocean-color);
     border: 1.25px solid var(--ocean-color);

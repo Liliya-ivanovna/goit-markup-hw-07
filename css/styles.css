@@ -11,6 +11,7 @@
     --green-color: #31d0aa;
     --white-color: #fcfcfc;
 }
+
 h1,
 h2,
 h3,
@@ -167,6 +168,7 @@ transition-property: color;
    .backdrop{
     display: none;
    }
+   .customers-mobile{display: none;}
 
 }
 @media screen and (max-width:1199px){

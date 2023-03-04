@@ -328,7 +328,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .soc-mobile{
     display: flex;
-    max-width: 428px;
+   align-content: center;
     justify-content: center;
     gap: 56px;
 }

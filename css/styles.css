@@ -97,6 +97,12 @@ body{
      .team-list-tablet{
         display: none;
      }
+     .customers-mobile{
+        display: none;
+     }
+     .customers-tablet{
+        display: none;
+     }
  }
  
  @media screen  and (max-width:767px){
@@ -158,6 +164,12 @@ body{
     
      }
      .team-list-mobile{
+        display: none;
+     }
+     .customers{
+        display: none;
+     }
+     .customers-mobile{
         display: none;
      }
 }
@@ -598,7 +610,9 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
         }
-        
+        .customers-block-mobile{
+            width: calc((100%/2)-16px);
+        }
         .customers-link-mobile:is(:hover,:focus){
             border: 1px solid var(--ocean-color);
             color: var(--ocean-color);
@@ -1147,6 +1161,58 @@ margin-bottom: 72px;
     .card-link-tablet:is(:hover,:focus){
         background:var(--ocean-color);
     }
+    .customers-header{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: var(--navy-blue-color);
+        }
+        .customers-tablet{
+        padding-top: 96px;
+        padding-bottom: 96px;
+        
+        }
+        .customers-row-tablet{
+            display: flex;
+            gap: 24px;
+        }
+        .customers-list-tablet{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            align-content: center;
+            gap: 72px;
+            margin-top: 72px;
+          
+        }
+        .customers-link-tablet{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        border: 1px solid var(--light-slate);
+        color: var(--light-slate);
+            border-radius: 4px;
+            background:var(--body-background-color);
+            width: 168px;
+        height: 88px;
+        transition-property:color, border;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+        }
+        .customers-block-tablet{
+            width: calc((100%/3)-48px);
+        }
+        
+        .customers-link-tablet:is(:hover,:focus){
+            border: 1px solid var(--ocean-color);
+            color: var(--ocean-color);
+        }
+        .svg-tablet{
+            fill: currentColor;
+        }
  /*
  .header-list{
   display: flex;

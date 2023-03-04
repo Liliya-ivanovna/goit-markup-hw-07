@@ -73,6 +73,30 @@ body{
      .tablet-header-list{
         display: none;
      }
+     .mobile-menu{
+        display: none;
+     }
+     .page-header-tablet{
+        display: none;
+     }
+     .solutions-mobile{
+        display: none;
+     }
+     .solutions-tablet{
+        display: none;
+     }
+     .features-mobile{
+        display: none;
+     }
+     .features-tablet{
+        display: none;
+     }
+     .team-list-mobile{
+        display: none;
+     }
+     .team-list-tablet{
+        display: none;
+     }
  }
  
  @media screen  and (max-width:767px){
@@ -108,10 +132,34 @@ body{
      .mobile-menu-open{
         display: none;
      }
-     .header-list{
+     .page-header{
         display: none;
      }
-     
+     .mobile-menu{
+        display: none;
+     }
+     .solutions-mobile{
+        display: none;
+     }
+     .solutions{
+        display: none;
+     }
+     .our-work{
+        display: none;
+     }
+     .features{
+        display: none;
+     }
+     .features-mobile{
+        display: none;
+     }
+     .team-list{
+        display: none;
+    
+     }
+     .team-list-mobile{
+        display: none;
+     }
 }
 
 .logo-link{
@@ -908,7 +956,11 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
             color: rgba(117, 117, 117, 0.5);
         }*/
      /*-----------------tablet--menu----------------*/   
-    
+    .page-header-tablet{
+        padding-top: 24px;
+        padding-bottom: 12px;
+        border-bottom: 1px solid #E7E9FC;
+    }
    .tablet-header-list{
     display: flex;
     flex-direction: column;
@@ -941,8 +993,160 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
     transition-property: color;
     }
-     
-  
+    .solutions-tablet{
+        background-color: var(--navy-blue-color);
+        background-position: center;
+        background-repeat: no-repeat;
+        text-align: center;
+        padding-top: 112px;
+        padding-bottom: 108px;
+        background-size: cover;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 768px;
+        height: 436px;
+        background-image:linear-gradient(rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7) 100%),url(../images/people-office\ 1.jpg);   
+    } 
+    .h1-solutions-tablet{ 
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        color: var(--body-background-color);
+        max-width: 496px;
+        margin: auto;
+        margin-bottom: 40px;
+        }
+        .b-text-tablet:is(:hover,:focus){
+            background: var(--ocean-color);
+        }
+        
+        .b-text-tablet{ 
+        padding-top: 16px; 
+        padding-bottom: 16px; 
+        padding-right: 32px;
+        padding-left: 32px;
+        font-family : inherit;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: var(--body-background-color);
+        background: var(--iris-color);
+        border: none;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        transition-property: background;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+        }
+        .features-tablet{
+            padding-top: 96px;
+            padding-bottom: 96px;   
+        }
+        .features-item-tablet{
+            width: calc(((100%/2)-24px));
+        }
+        .features-header-tablet{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        color: var(--navy-blue-color);
+        margin-bottom: 8px;
+        }
+        .features-text-tablet{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--slate-color);
+        
+        }
+        .features-list-tablet{
+            display: flex;
+            flex-direction: column;
+            gap: 72px ;
+        }
+       .features-row-tablet{
+        display: flex;
+        align-items: center;
+        align-content: center;
+        gap: 24px;
+       }
+       .team-list-tablet{
+        background: var(--cloud-color);
+        padding-bottom: 104px;
+        padding-top: 96px;
+        text-align: center;
+       }
+       .team-header-tablet{
+font-weight:700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+color: var(--navy-blue-color);
+margin-bottom: 72px;
+       }
+       .team-row-tablet{
+        display: flex;
+    gap: 24px;
+    align-items: center;
+       }
+       .team-tablet{
+        display: flex;
+        flex-direction: column;
+        gap: 64px;
+        align-items: center;
+        align-content: center;
+       }
+       .borders-text-tablet{
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+  background: var(--body-background-color);
+       }
+       .card-text-tablet{
+        padding-top: 32px;
+        padding-bottom: 32px;
+       }
+       .team-name-tablet{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: inherit;
+        text-align: center;    
+    }
+    .speciality-tablet{
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--slate-color);
+        margin-top: 8px;
+    }
+    .card-tablet{
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+        margin-top: 8px;
+    }
+    .card-link-tablet{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 40px;
+    height:40px;
+    background:var(--iris-color);
+    transition-property:background ;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);  
+    }
+    .card-link-tablet:is(:hover,:focus){
+        background:var(--ocean-color);
+    }
  /*
  .header-list{
   display: flex;

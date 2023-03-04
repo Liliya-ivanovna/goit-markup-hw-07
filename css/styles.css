@@ -168,9 +168,6 @@ transition-property: color;
    .backdrop{
     display: none;
    }
-.backdrop-mobile{
-    display: none;
-}
 }
 @media screen and (max-width:1199px){
     .header-list{

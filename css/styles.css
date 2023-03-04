@@ -109,6 +109,12 @@ body{
      .style-footer-mobile{
         display: none;
      }
+     .backdrop-tablet{
+        display: none;
+     }
+     .backdrop-mobile{
+        display: none;
+     }
  }
  
  @media screen  and (max-width:767px){
@@ -182,6 +188,12 @@ body{
         display: none;
      }
      .style-footer-mobile{
+        display: none;
+     }
+     .backdrop-mobile{
+        display: none;
+     }
+     .backdrop{
         display: none;
      }
 }

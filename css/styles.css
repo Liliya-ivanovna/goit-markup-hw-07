@@ -65,7 +65,8 @@ body{
    
     .header-list{
        display: none;
-    }  
+    } 
+     
     .features{
         display: none;
     }
@@ -110,6 +111,33 @@ display: none;
     .container{
         width: 768px;
     } 
+    .mobile-menu-open{
+        display: none ;}
+    .solutions-mobile{
+        display: none;
+     }
+     
+     .features-mobile{
+        display: none;
+     }
+ 
+     .team-list-mobile{
+        display: none;
+    
+     }
+ 
+     .customers-mobile{
+        display: none;
+     }
+ 
+     .style-footer-mobile{
+        display: none;
+     }
+  
+ 
+     .backdrop-mobile{
+        display: none;
+     }
     
  }
  @media screen and (max-width:1199px){ 
@@ -640,8 +668,8 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
         }
-        .customers-block-mobile{
-            width: calc(((100% - 16px)) / 2);
+        .customers-list-mobile{
+            width: calc((100%/2-16));
         }
         .customers-link-mobile:is(:hover,:focus){
             border: 1px solid var(--ocean-color);

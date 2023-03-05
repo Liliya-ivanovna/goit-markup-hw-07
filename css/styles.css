@@ -121,6 +121,9 @@ body{
     .menu{
        display: none;
     }
+    .page-header-tablet{
+        display: none;
+    }
     .header-list{
        display: none;
     }  
@@ -1596,7 +1599,7 @@ margin-bottom: 72px;
                     outline: none;
                     border-color: var(--iris-color);
                 }
- /*
+ /*---------------------desktop---version-----------------------*/
  .header-list{
   display: flex;
   gap: 40px;
@@ -2272,6 +2275,3 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     outline: none;
     border-color: var(--iris-color);
 }
-*/
- 
- 

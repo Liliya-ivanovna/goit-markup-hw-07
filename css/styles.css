@@ -141,9 +141,7 @@ display: none;
      }
   
  
-     .backdrop-mobile{
-        display: none;
-     }
+     
     
   
   
@@ -175,10 +173,6 @@ display: none;
        display: none;
     }
  
-
-    .backdrop{
-       display: none;
-    }
 }
 
  
@@ -227,12 +221,7 @@ display: none;
      .style-footer-mobile{
         display: none;
      }
-     .backdrop-tablet{
-        display: none;
-     }
-     .backdrop-mobile{
-        display: none;
-     }
+
  }
  
  
@@ -1030,19 +1019,6 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
             margin-right: 8px;
             background: var(--body-background-color);
         }
-        .chekbox-mobile:focus+.modal-form-check-mobile::before{
-            background:var(--ocean-color);
-            border: 1.25px solid var(--ocean-color);
-            border-radius: 2px;
-        }
-        .chekbox-mobile:checked+.modal-form-check-mobile::before{
-            background-image: url(../images/Property\ 1=click.svg);
-            background-size: cover;
-            background-position: center ;
-            background-repeat: no-repeat;
-            background-color: var(--ocean-color);
-            border: 1.25px solid var(--ocean-color);
-        }
         .comment-message-mobile ::placeholder{
             color: rgba(117, 117, 117, 0.5);
         }
@@ -1445,7 +1421,6 @@ margin-bottom: 72px;
                     height: 24px;
                     top: 24px;
                     right: 24px;
-                    padding: 0;
                     border-radius: 50%;
                     cursor: pointer;
                     transition-property:background,fill ;
@@ -1590,19 +1565,7 @@ margin-bottom: 72px;
                 
                 }
                 
-                .chekbox:focus+.modal-form-check::before{
-                    background:var(--ocean-color);
-                    border: 1.25px solid var(--ocean-color);
-                    border-radius: 2px;
-                }
-                .chekbox:checked+.modal-form-check::before{
-                    background-image: url(../images/Property\ 1=click.svg);
-                    background-size: cover;
-                    background-position: center ;
-                    background-repeat: no-repeat;
-                    background-color: var(--ocean-color);
-                    border: 1.25px solid var(--ocean-color);
-                }
+                
                 
                 .modal-form-submit-tablet:is(:hover,:focus){
                     background:var(--ocean-color);

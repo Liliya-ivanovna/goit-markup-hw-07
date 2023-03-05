@@ -656,7 +656,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
         }
         .customers-block-mobile{
-            width: calc((100%/2)-16px);
+            width: calc(((100% - 16px)) / 2);
         }
         .customers-link-mobile:is(:hover,:focus){
             border: 1px solid var(--ocean-color);
@@ -1248,7 +1248,7 @@ margin-bottom: 72px;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
         }
         .customers-block-tablet{
-            width: calc((100%/3)-48px);
+            width: calc(((100%/3)-48px));
         }
         
         .customers-link-tablet:is(:hover,:focus){

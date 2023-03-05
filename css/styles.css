@@ -124,7 +124,7 @@ body{
     .header-list{
        display: none;
     }  
-    .features-list{
+    .features{
         display: none;
     }
     .solutions{
@@ -145,7 +145,25 @@ body{
    .backdrop{
     display: none;
    }
+   .features-tablet{
+    display: none;
 }
+.solutions-tablet{
+    display: none;
+}
+.team-list-tablet{
+    display: none;
+}
+.customers-tablet{
+display: none;
+}
+.style-footer-tablet{
+display: none;
+}
+.backdrop-tablet{
+display: none;
+}
+ }
 @media screen and (max-width:1199px){ 
      .mobile-menu-open{
         display: none;

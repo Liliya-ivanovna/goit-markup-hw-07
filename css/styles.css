@@ -58,11 +58,94 @@ body{
         margin-right: auto;}
 
  }
+ @media screen  and (max-width:767px){
+    .menu{
+       display: none;
+    }
+   
+    .header-list{
+       display: none;
+    }  
+    .features{
+        display: none;
+    }
+    .solutions{
+        display: none;
+    }
+    .our-work{
+        display: none;
+    }
+    .team-list{
+        display: none;
+    }
+   .customers{
+    display: none;
+   }
+   .style-footer{
+    display: none;
+   }
+   .backdrop{
+    display: none;
+   
+}
+ }
  @media  screen and (min-width:768px)  {
     .container{
         width: 768px;
     } 
  }
+ @media screen and (max-width:1199px){ 
+    .mobile-menu-open{
+       display: none;
+    }
+    .page-header{
+       display: none;
+    }
+    .mobile-menu{
+       display: none;
+    }
+    .solutions-mobile{
+       display: none;
+    }
+    .solutions{
+       display: none;
+    }
+    .our-work{
+       display: none;
+    }
+    .features{
+       display: none;
+    }
+    .features-mobile{
+       display: none;
+    }
+    .team-list{
+       display: none;
+   
+    }
+    .team-list-mobile{
+       display: none;
+    }
+    .customers{
+       display: none;
+    }
+    .customers-mobile{
+       display: none;
+    }
+    .style-footer{
+       display: none;
+    }
+    .style-footer-mobile{
+       display: none;
+    }
+    .backdrop-mobile{
+       display: none;
+    }
+    .backdrop{
+       display: none;
+    }
+}
+
  @media  screen and (min-width:1200px) {
     .container{
         width: 1440px;
@@ -117,107 +200,7 @@ body{
      }
  }
  
- @media screen  and (max-width:767px){
-    .menu{
-       display: none;
-    }
-    .page-header-tablet{
-        display: none;
-    }
-    .header-list{
-       display: none;
-    }  
-    .features{
-        display: none;
-    }
-    .solutions{
-        display: none;
-    }
-    .our-work{
-        display: none;
-    }
-    .team-list{
-        display: none;
-    }
-   .customers{
-    display: none;
-   }
-   .style-footer{
-    display: none;
-   }
-   .backdrop{
-    display: none;
-   }
-   .features-tablet{
-    display: none;
-}
-.solutions-tablet{
-    display: none;
-}
-.team-list-tablet{
-    display: none;
-}
-.customers-tablet{
-display: none;
-}
-.style-footer-tablet{
-display: none;
-}
-.backdrop-tablet{
-display: none;
-}
- }
-@media screen and (max-width:1199px){ 
-     .mobile-menu-open{
-        display: none;
-     }
-     .page-header{
-        display: none;
-     }
-     .mobile-menu{
-        display: none;
-     }
-     .solutions-mobile{
-        display: none;
-     }
-     .solutions{
-        display: none;
-     }
-     .our-work{
-        display: none;
-     }
-     .features{
-        display: none;
-     }
-     .features-mobile{
-        display: none;
-     }
-     .team-list{
-        display: none;
-    
-     }
-     .team-list-mobile{
-        display: none;
-     }
-     .customers{
-        display: none;
-     }
-     .customers-mobile{
-        display: none;
-     }
-     .style-footer{
-        display: none;
-     }
-     .style-footer-mobile{
-        display: none;
-     }
-     .backdrop-mobile{
-        display: none;
-     }
-     .backdrop{
-        display: none;
-     }
-}
+ 
 
 .logo-link{
     font-family: 'Raleway',sans-serif;

@@ -86,7 +86,24 @@ body{
    }
    .backdrop{
     display: none;
-   
+   }
+   .features-tablet{
+    display: none;
+}
+.solutions-tablet{
+    display: none;
+}
+.team-list-tablet{
+    display: none;
+}
+.customers-tablet{
+display: none;
+}
+.style-footer-tablet{
+display: none;
+}
+.backdrop-tablet{
+display: none;
 }
  }
  @media  screen and (min-width:768px)  {

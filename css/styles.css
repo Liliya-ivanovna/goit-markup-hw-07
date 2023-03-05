@@ -69,7 +69,9 @@ body{
     }
 @media screen and (max-width: 767px){
     
-
+.page-header-tablet{
+    display: none;
+}
     .menu{
        display: none;
     }

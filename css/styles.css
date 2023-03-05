@@ -110,20 +110,15 @@ display: none;
     .container{
         width: 768px;
     } 
+    
  }
  @media screen and (max-width:1199px){ 
-    .mobile-menu-open{
-       display: none;
-    }
+  
     .page-header{
        display: none;
     }
-    .mobile-menu{
-       display: none;
-    }
-    .solutions-mobile{
-       display: none;
-    }
+   
+
     .solutions{
        display: none;
     }
@@ -133,31 +128,21 @@ display: none;
     .features{
        display: none;
     }
-    .features-mobile{
-       display: none;
-    }
+
     .team-list{
        display: none;
    
     }
-    .team-list-mobile{
-       display: none;
-    }
+
     .customers{
        display: none;
     }
-    .customers-mobile{
-       display: none;
-    }
+
     .style-footer{
        display: none;
     }
-    .style-footer-mobile{
-       display: none;
-    }
-    .backdrop-mobile{
-       display: none;
-    }
+ 
+
     .backdrop{
        display: none;
     }
@@ -1967,13 +1952,6 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 display: flex;
 gap: 16px;
     }
-.container{
-    width: 1158px;
-    margin-left: auto;
-    margin-right: auto;
-   padding-left: 15px; 
-   padding-right: 15px;
-}
 .overlay{
     font-weight: 400;
 font-size: 16px;

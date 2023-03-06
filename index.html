@@ -17,7 +17,87 @@
 <body class="body-style">
     <header class="page-header">
         <div class="container page-header-container">
-        <nav class="page-nav container">
+          <nav class="page-nav">
+            <a class="logo-link" href="./index.html"><span class="accent">WEB</span>STUDIO</a>
+            <ul class="menu list">
+              <li class="menu-header">
+                <a class="menu-list active" href="./index.html">Studio</a>
+              </li>
+              <li class="menu-header">
+                <a class="menu-list" href="./portfolio.html">Portfolio</a>
+              </li>
+              <li class="menu-header"><a class="menu-list" href="">Contacts</a></li>
+            </ul>
+          </nav>
+          <address class="header-address">
+            <ul class="list header-list">
+              <li class="header-item">
+                <a href="mailto:info@devstudio.com" class="link-mail-post"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="header-item">
+                <a href="tel:+110001111111" class="phone-number"
+                  >+11 (000) 111-11-11</a>
+              </li>
+            </ul>
+          </address>
+          <button class="mobile-menu-open js-open-menu" type="button"><svg width="32px" height="22px">
+            <use href="./images/icons.svg#icon-charm_menu-hamburger"></use>
+        </svg></button>
+    
+        </div>
+        <div class="mobile-menu js-menu-container">
+          <div class="mobile-menu-container container">
+            <div>
+                <button class="mobile-menu-close-btn js-close-menu" ><svg class="mobile-menu-close-icon" width="8px" height="8px">
+                    <use href="./images/icons.svg#icon-close-black-18dp-2-1-2"></use>
+                </svg></button>
+              <nav class="mob-menu-navigation">
+                <ul class="mobile-menu-list list">
+                    <li><a class="mobile-menu-link" href="./index.html">Studio</a></li>
+                    <li><a class="mobile-menu-link" href="./portfolio.html">Portfolio</a></li>
+                    <li><a class="mobile-menu-link" href="#">Contacts</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div>
+              <address>
+                <ul class="address-list list">
+                    <li><a class="phone-number-mobile" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                    <li><a class="link-mail-post-mobile" href="mailto:info@devstudio.com" >info@devstudio.com</a></li>
+                </ul>
+              </address>
+              <ul class=" soc-mobile list">
+                <li><a href="#" class="social-link"><svg width="24px" height="24px">
+                    <use href="./images/icons.svg#icon-instagram-2"></use>
+                </svg></a></li>
+                <li><a href="#" class="social-link"><svg width="24px" height="24px">
+                    <use href="./images/icons.svg#icon-twitter-1"></use>
+                </svg></a></li>
+                <li><a href="#" class="social-link"><svg width="24px" height="24px">
+                    <use href="./images/icons.svg#icon-facebook-1" ></use>
+                </svg></a></li>
+                <li><a href="#" class="social-link"><svg width="24px" height="24px">
+                    <use href="./images/icons.svg#icon-linkedin-1"></use>
+                </svg></a></li>
+            </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main>
+        <section class="headline-box section">
+          <div class="container headline-container">
+            <h1 class="headline">Effective Solutions for Your Business</h1>
+            <button class="headline-button" type="button" data-modal-open>
+              Order Service
+            </button>
+          </div>
+        </section>
+   <!-- <header class="page-header">
+        <div class="container page-header-container">
+        <nav class="page-nav">
             <a class="logo-link" href="./index.html"><span class="accent">WEB</span>STUDIO</a>
             <ul class="menu list">
                 <li class="menu-header list"><a class="menu-list active " href="./index.html">Studio</a></li>
@@ -26,50 +106,17 @@
             </ul>
         </nav>
         <address>
-            <ul class="list  header-list">
+            <ul class="list header-list tablet-header-list">
             <li><a class="link-mail-post" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
             <li><a class="phone-number" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
         </ul>
     </address>
-    <address>
-        <ul class="tablet-header-list list">
-            <li><a class="phone-number-mobile" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-            <li><a class="link-mail-post-mobile" href="mailto:info@devstudio.com" >info@devstudio.com</a></li>
-        </ul>
-    </address>
+
 
     <button class="mobile-menu-open js-open-menu" type="button"><svg width="32px" height="22px">
         <use href="./images/icons.svg#icon-charm_menu-hamburger"></use>
     </svg></button>
 
-
-<!--<div class="page-header-tablet">
-    <div class="container page-header-container">
-    <nav class="page-nav">
-        <a class="logo-link" href="./index.html"><span class="accent">WEB</span>STUDIO</a>
-        <ul class=" menu list">
-            <li class="menu-header list"><a class="menu-list active " href="./index.html">Studio</a></li>
-            <li class="menu-header list"><a class="menu-list " href="./portfolio.html">Portfolio</a></li>
-            <li class="menu-header list"><a class="menu-list " href="">Contacts</a></li>
-        </ul>
-    </nav>
-    <address>
-        <ul class="list tablet-header-list">
-        <li><a class="link-mail-post-tablet" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="phone-number-tablet" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-    </ul>
-</address>
-</div>
-</div>
-<div class="page-header-mobile">
-    <div class="page-header-container container">
-    <a class="logo-link" href="./index.html"><span class="accent">WEB</span>STUDIO</a>
-
-<button class="mobile-menu-open js-open-menu" type="button"><svg width="32px" height="22px">
-    <use href="./images/icons.svg#icon-charm_menu-hamburger"></use>
-</svg></button>
-</div>
-</div>-->
   
 <div class="mobile-menu js-menu-container">
     <div class="container">
@@ -111,24 +158,18 @@
 </div>
 </header>
 <main>
-<section class="solutions-tablet ">
-    <div class="container">
+<section>
+    <div class="container solutions-tablet">
  <h1 class="h1-solutions-tablet">Effective Solutions for Your Business</h1>
-        <button class="b-text-tablet" data-modal-open type="button">Order Service</button>
-    </div>
-    </section>
-<section class="solutions-mobile ">
-    <div class="container">
+ 
+<div class="container solutions-mobile ">
  <h1 class="h1-solutions-mobile">Effective Solutions for Your Business</h1>
-        <button class="b-text-mobile" data-modal-open type="button">Order Service</button>
-    </div>
-    </section>
-    <section class="solutions ">
-        <div class="container background-container">
+
+    <div class="container solutions background-container">
      <h1 class="h1-solutions">Effective Solutions for Your Business</h1>
             <button class="b-text" data-modal-open type="button">Order Service</button>
-        </div>
-        </section>
+        </div>  </div>  </div>
+        </section>-->
         <section class="features-tablet">
             <div class="container ">
             <h2 class="visually-hidden">Features</h2>

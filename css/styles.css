@@ -71,12 +71,18 @@ body{
   .headline-box {
     margin: 0 auto;
     background-image: var(--background-gradient),
-      url(../images/d-sol-1x.jpg);
+      url(../images/m-sol-1x.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     padding-top: 188px;
     padding-bottom: 188px;
+  }
+  @media screen and (min-width:768px){
+    .headline-box {
+        background-image: var(--background-gradient),
+        url(../images/t-sol-1x.jpg);  
+    } 
   }
   @media screen and (min-width:1200px){
     .headline-box {
@@ -84,7 +90,24 @@ body{
         url(../images/d-sol-1x.jpg);  
     } 
   }
-  @media screen and (min-device-pixel-ratio: 2) and (min-width:1200px),
+  @media screen and (min-device-pixel-ratio: 2) and (max-width:767px),
+    screen and (min-resolution: 192dpi) and (max-width:767px),
+    screen and (min-resolution: 2dppx) and (max-width:767px) {
+    .headline-box {
+      background-image: var(--background-gradient),
+        url(../images/m-sol-2x.jpg);
+    }
+    }
+  
+    @media screen and (min-device-pixel-ratio: 2) and (min-width:768px),
+    screen and (min-resolution: 192dpi) and (min-width:768px),
+    screen and (min-resolution: 2dppx) and (min-width:768px) {
+    .headline-box {
+      background-image: var(--background-gradient),
+        url(../images/t-sol-2x.jpg);
+    }
+    }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width:1200px),
     screen and (min-resolution: 192dpi) and (min-width:1200px),
     screen and (min-resolution: 2dppx) and (min-width:1200px) {
     .headline-box {

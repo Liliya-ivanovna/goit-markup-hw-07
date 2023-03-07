@@ -71,19 +71,25 @@ body{
   .headline-box {
     margin: 0 auto;
     background-image: var(--background-gradient),
-      url(../images/people-office\ 1.jpg);
+      url(../images/d-sol-1x.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     padding-top: 188px;
     padding-bottom: 188px;
   }
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
+  @media screen and (min-width:1200px){
+    .headline-box {
+        background-image: var(--background-gradient),
+        url(../images/d-sol-1x.jpg);  
+    } 
+  }
+  @media screen and (min-device-pixel-ratio: 2) and (min-width:1200px),
+    screen and (min-resolution: 192dpi) and (min-width:1200px),
+    screen and (min-resolution: 2dppx) and (min-width:1200px) {
     .headline-box {
       background-image: var(--background-gradient),
-        url(../images/people-office\ 1.jpg);
+        url(../images/d-sol-2x.jpg);
     }
     }
   

@@ -550,10 +550,6 @@ padding-top: 24px;
 padding-bottom: 24px;
 }
 
-.mobile-menu-container{
-    padding-top: 80px;
-    padding-left: 40px;
-}
 .mobile-menu{
     position: fixed;
     width: 100%;
@@ -618,7 +614,6 @@ border: 1px solid rgba(0, 0, 0, 0.1);
     flex-direction: column;
     gap: 40px;
     margin-top: 32px;
-
 }
 
 .mobile-menu-link{
@@ -688,8 +683,6 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .soc-mobile{
     display: flex;
-   align-content: center;
-    justify-content: center;
     gap: 56px;
 }
 
@@ -978,7 +971,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         }
     }
      /*-----------------tablet--menu----------------*/ 
-     @media screen and (min-width:768px) and {
+     @media screen and (min-width:768px){
         .headline-box {
             background-image: var(--background-gradient),
             url(../images/t-sol-1x.jpg);  
@@ -993,7 +986,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
     }
     
-    @media screen and (min-width: 768px) and (max-width:1159px) {
+    @media screen and (min-width: 768px) and (max-width:1159px){
     .container {
       max-width: 768px;
       padding-left: 15px;

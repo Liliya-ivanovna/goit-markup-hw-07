@@ -63,12 +63,10 @@ body{
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
-  .section {
-    padding-bottom: 96px;
-    padding-top: 96px;
-  }
+  
   .headline-box {
     margin: 0 auto;
+    background-color: var(--navy-blue-color);
     background-image: var(--background-gradient),
       url(../images/m-sol-1x.jpg);
     background-repeat: no-repeat;
@@ -84,17 +82,7 @@ body{
         url(../images/m-sol-2x.jpg);
     }
     }
-  
-  .headline {
-    color: var(--body-background-color);
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    width: 320px;
-    margin: 0 auto 72px;
-  }
+ 
   .headline-button {
     display: block;
     font-family: inherit;
@@ -109,7 +97,6 @@ body{
     margin: 0 auto;
     width: 169px;
     height: 56px;
-  
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     transition-property: background;
 transition-duration: 250ms;
@@ -533,6 +520,10 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     letter-spacing: 0.02em;
     width: 320px;
     margin: 0 auto 72px;
+  }
+  .section {
+    padding-bottom: 96px;
+    padding-top: 96px;
   }
 .modal-mobile{
     position: absolute;
@@ -1054,21 +1045,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
     transition-property: color;
     }
-    .solutions-tablet{
-        background-color: var(--navy-blue-color);
-        background-position: center;
-        background-repeat: no-repeat;
-        text-align: center;
-        padding-top: 112px;
-        padding-bottom: 108px;
-        background-size: cover;
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 768px;
-        height: 436px;
-        background-image:linear-gradient(rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7) 100%),url(../images/people-office\ 1.jpg);   
-    } 
+   
     .headline-tablet{ 
         font-weight: 700;
         font-size: 56px;
@@ -1449,22 +1426,6 @@ margin-bottom: 72px;
     display: flex;
     gap:40px;
  }
- .solutions{
-background-color: var(--navy-blue-color);
-background-position: center;
-background-repeat: no-repeat;
-text-align: center;
-padding: 188px 0;
-background-size: cover;
-margin-left: auto;
-margin-right: auto;
-max-width: 1440px;
-height: 600px;
-background-image:linear-gradient(rgba(46, 47, 66, 0.7),
-rgba(46, 47, 66, 0.7) 100%),url(../images/people-office\ 1.jpg);
-}
-
-
 .headline-desktop{ 
 font-weight: 700;
 font-size: 56px;

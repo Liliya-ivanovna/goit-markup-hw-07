@@ -981,7 +981,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         }
     }
      /*-----------------tablet--menu----------------*/ 
-     @media screen and (min-width:768px){
+     @media screen and (min-width:768px) and {
         .headline-box {
             background-image: var(--background-gradient),
             url(../images/t-sol-1x.jpg);  
@@ -996,7 +996,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
     }
     
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 768px) and (max-width:1159px) {
     .container {
       max-width: 768px;
     }
@@ -1330,6 +1330,7 @@ margin-bottom: 72px;
                     letter-spacing: 0.02em;  
                     color:var(--body-background-color);
                     margin-top: 72px;
+                    margin-bottom: 16px;
                 }
                 .footer-input-tablet{
                     border: 1px solid rgba(255, 255, 255, 0.3);

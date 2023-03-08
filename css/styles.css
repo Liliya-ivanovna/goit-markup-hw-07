@@ -48,9 +48,10 @@ body{
 .container{
     position: relative;
     width: 100%;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
  }
+ 
 
 .visually-hidden {
     position: absolute;
@@ -497,12 +498,14 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 
 /*-------------------mobile-menu------------------------*/
-@media screen and (min-width:480px)and (max-width:767px) {
-    .container{
-        width: 428px;
+@media screen and (max-width:767px) {
+    .container {
+        max-width: 428px;
+        padding-left: 15px;
+        padding-right: 15px;
         margin-left: auto;
-        margin-right: auto;}
-    
+        margin-right: auto;
+      }
     .header-address {
         display: none;
       } 
@@ -992,10 +995,13 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         url(../images/t-sol-2x.jpg);
     }
     }
-     @media  screen and (min-width:768px) and (max-width:1199px) {
-        .container{
-            width: 768px;
-        } 
+    
+    @media screen and (min-width: 768px) {
+    .container {
+      max-width: 768px;
+    }
+  
+
         .mobile-menu-open{
             display: none;
         }
@@ -1389,10 +1395,12 @@ margin-bottom: 72px;
         url(../images/d-sol-2x.jpg);
     }
     }
- @media screen and (min-width:1200px) and (max-width:1440px) {
-    .container{
-        width: 1440px;
-    }
+
+    @media screen and (min-width: 1200px) {
+        .container {
+          max-width: 1158px;
+        }
+      
     .tablet-header-list{
         display: none;
     }

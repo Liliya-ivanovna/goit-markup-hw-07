@@ -649,7 +649,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
                             text-align: center;
                             letter-spacing: 0.02em;
                             width: 300px;
-                            margin: 0 auto 72px;
+                            margin-bottom:  72px;
                           }
                       
                           .section {

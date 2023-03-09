@@ -480,6 +480,71 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     border-color: var(--iris-color);
 }
 
+ .team-list{
+        background: var(--cloud-color);
+        padding-bottom: 96px;
+        padding-top: 96px;
+        text-align: center;
+    }
+    
+        .card-text{
+        padding-top: 32px;
+        padding-bottom: 32px;
+    
+    }
+    .team-header{
+    font-weight:700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue-color);
+    margin-bottom: 72px;
+    text-transform: capitalize;
+    text-align: center;
+
+    }
+    .team-name{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: inherit;
+        text-align: center;    
+    }
+    .card-link:is(:hover,:focus){
+        background:var(--ocean-color);
+    }
+    .card-link{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      border-radius: 50%;
+    width: 40px;
+    height:40px;
+    background:var(--iris-color);
+    transition-property:background ;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+    }
+    .card{
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+        margin-top: 8px;
+    }
+    .borders-text{
+      box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+      border-radius: 0px 0px 4px 4px;
+      background: var(--body-background-color);
+    }
+    .speciality{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate-color);
+    margin-top: 8px;
+    }
 
 /*-------------------mobile-menu------------------------*/
 @media screen and (max-width:767px) {
@@ -499,10 +564,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 .menu{
     display: none;
 }
-.features,
-.features-tablet,
-.team-list,
-.team-list-tablet,
+.features-list,
 .our-work,
 .customers,
 .customers-tablet,
@@ -685,6 +747,11 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     flex-direction: column;
     gap: 72px ;
 }
+.features-div-tablet{
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+}
 .features-header-mobile{
     font-weight: 700;
     font-size: 36px;
@@ -692,7 +759,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     letter-spacing: 0.02em;
     color: var(--navy-blue-color);
     margin-bottom: 8px;
-    margin-top: 72px;
+    text-align: center;
     }
     .features-text-mobile{
     font-size: 16px;
@@ -701,76 +768,18 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     color: var(--slate-color);
     
     }
-    .team-list-mobile{
-        background: var(--cloud-color);
-        padding-bottom: 128px;
-        padding-top: 96px;
-        text-align: center;
-    }
-    .team-mobile{
+    .team{
         display: flex;
         flex-direction: column;
         gap: 72px;
         align-items: center;
     }
-        .card-text-mobile{
-        padding-top: 32px;
-        padding-bottom: 32px;
-    
-    }
-    .team-header-mobile{
-    font-weight:700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    color: var(--navy-blue-color);
-    margin-bottom: 72px;
-    text-transform: capitalize;
-
-    }
-    .team-name-mobile{
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: inherit;
-        text-align: center;    
-    }
-    .card-link-mobile:is(:hover,:focus){
-        background:var(--ocean-color);
-    }
-    .card-link-mobile{
+    .cont-team{
         display: flex;
-        justify-content: center;
-        align-items: center;
-      border-radius: 50%;
-    width: 40px;
-    height:40px;
-    background:var(--iris-color);
-    transition-property:background ;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+        flex-direction: column;
+        gap: 72px;
     }
-    .card-mobile{
-        display: flex;
-        justify-content: center;
-        gap: 24px;
-        margin-top: 8px;
-    }
-    .borders-text-mobile{
-      box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-        0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-      border-radius: 0px 0px 4px 4px;
-      background: var(--body-background-color);
-    }
-    .speciality-mobile{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--slate-color);
-    margin-top: 8px;
-    }
-
+ 
     .customers-header-mobile{
         font-weight: 700;
         font-size: 36px;
@@ -980,7 +989,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
       .mobile-menu {
         display: none;
       }
-     
+      .features-list,
       .style-footer,
       .style-footer-mobile{
         display: none;
@@ -1073,94 +1082,19 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         gap: 72px;
         
        }
-       .features-mobile{
-        display: none;
-     }
-     .features{
-        display: none;
-     }
-
-       .team-list-tablet{
-        background: var(--cloud-color);
-        padding-bottom: 104px;
-        padding-top: 96px;
-        text-align: center;
-       }
-       .team-header-tablet{
-font-weight:700;
-font-size: 36px;
-line-height: 1.11;
-letter-spacing: 0.02em;
-color: var(--navy-blue-color);
-margin-bottom: 72px;
-       }
-       .team-tablet{
+       .team{
         display: flex;
     gap: 24px;
     align-items: center;
     align-content: center;
        }
-       .team-div-tablet{
+       .cont-team{
         display: flex;
         flex-direction: column;
         gap: 64px;
         align-items: center;
         align-content: center;
        }
-       .borders-text-tablet{
-        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  border-radius: 0px 0px 4px 4px;
-  background: var(--body-background-color);
-       }
-       .card-text-tablet{
-        padding-top: 32px;
-        padding-bottom: 32px;
-       }
-       .team-name-tablet{
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: inherit;
-        text-align: center;    
-    }
-    .speciality-tablet{
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: var(--slate-color);
-        margin-top: 8px;
-    }
-    .card-tablet{
-        display: flex;
-        justify-content: center;
-        gap: 24px;
-        margin-top: 8px;
-    }
-    .card-link-tablet{
-     display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    width: 40px;
-    height:40px;
-    background:var(--iris-color);
-    transition-property:background ;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);  
-    }
-    .card-link-tablet:is(:hover,:focus){
-        background:var(--ocean-color);
-    }
-    .team-list-mobile{
-        display: none;
-    
-     }
-     .team-list{
-        display: none;
-    
-     }
      
     .customers-header{
         font-weight: 700;
@@ -1374,18 +1308,10 @@ margin-bottom: 72px;
      .mobile-menu{
         display: none;
      }
-     .features-mobile{
+    
+    .features-div-tablet{
         display: none;
-     }
-     .features-tablet{
-        display: none;
-     }
-     .team-list-mobile{
-        display: none;
-     }
-     .team-list-tablet{
-        display: none;
-     }
+    }
      .customers-mobile{
         display: none;
      }
@@ -1452,6 +1378,12 @@ color: var(--slate-color);
     align-items: center;
     gap: 24px ;
 }
+.features-div-tablet{
+    display: flex;
+    gap: 24px ;
+    justify-content: center;
+    align-items: center;
+}
 .features-icon{
     background: var(--cloud-color);
     width: 264px;
@@ -1481,75 +1413,24 @@ color: var(--slate-color);
     }
 
 .team-list{
-    background: var(--cloud-color);
     padding-bottom: 120px;
     padding-top: 120px;
-    text-align: center;
 }
 .team{
     display: flex;
     justify-content: center;
     gap: 24px;
     align-items: center;
-    
+    align-content: center;
 }
-    .card-text{
-    padding-top: 32px;
-    padding-bottom: 32px;
-
-}
-.team-header{
-font-weight:700;
-font-size: 36px;
-line-height: 1.11;
-letter-spacing: 0.02em;
-color: var(--navy-blue-color);
-margin-bottom: 72px;
-}
-.team-name{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: inherit;
-    text-align: center;    
-}
-.card-link:is(:hover,:focus){
-    background:var(--ocean-color);
-}
-.card-link{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  border-radius: 50%;
-width: 40px;
-height:40px;
-background:var(--iris-color);
-transition-property:background ;
-transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
-}
-.card{
+.cont-team{
     display: flex;
     justify-content: center;
     gap: 24px;
-    margin-top: 8px;
+    align-items: center;
+    align-content: center;  
 }
-.borders-text{
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  border-radius: 0px 0px 4px 4px;
-  background: var(--body-background-color);
-  
-}
-.speciality{
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--slate-color);
-margin-top: 8px;
 
-}
 .customers-header{
 font-weight: 700;
 font-size: 36px;

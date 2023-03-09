@@ -545,7 +545,23 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     color: var(--slate-color);
     margin-top: 8px;
     }
-
+    .customers-header{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: var(--navy-blue-color);
+        }
+        .customers{
+        padding-top: 96px;
+        padding-bottom: 96px;
+        
+        }
+        .svg{
+            fill: currentColor;
+        }
 /*-------------------mobile-menu------------------------*/
 @media screen and (max-width:767px) {
     .container {
@@ -566,8 +582,6 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .features-list,
 .our-work,
-.customers,
-.customers-tablet,
 .style-footer,
 .style-footer-tablet
 {
@@ -780,53 +794,36 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         gap: 72px;
     }
  
-    .customers-header-mobile{
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.11;
-        text-align: center;
-        letter-spacing: 0.02em;
-        text-transform: capitalize;
-        color: var(--navy-blue-color);
-        }
-        .customers-mobile{
-        padding-top: 96px;
-        padding-bottom: 96px;
-        
-        }
-        .customers-list-mobile{
-            display: flex;
-            gap: 16px;
-            margin-top: 72px;
-          
-        }
-        .icon-between{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .customers-link-mobile{
-            display: flex;
-            align-items: center;
-            justify-content: center;
+   
+    .customers-list{
+        display: flex;
+       flex-wrap: wrap;
+       row-gap: 72px;
+       column-gap: 24px;
+       justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin-top: 72px;
+      
+    }
+     .customers-link{
+        display: flex;
+        align-items: center;
+        justify-content: center;
         border: 1px solid var(--light-slate);
         color: var(--light-slate);
-            border-radius: 4px;
-            background:var(--body-background-color);
-            width: 190px;
+        border-radius: 4px;
+        background:var(--body-background-color);
+        width: 190px;
         height: 88px;
         transition-property:color, border;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
         }
         
-        .customers-link-mobile:is(:hover,:focus){
+        .customers-link:is(:hover,:focus){
             border: 1px solid var(--ocean-color);
             color: var(--ocean-color);
-        }
-        .svg-mobile{
-            fill: currentColor;
         }
         .body{
         font-family: 'Roboto', sans-serif;
@@ -1095,40 +1092,24 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         align-items: center;
         align-content: center;
        }
-     
-    .customers-header{
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.11;
-        text-align: center;
-        letter-spacing: 0.02em;
-        text-transform: capitalize;
-        color: var(--navy-blue-color);
-        }
-        .customers-tablet{
-        padding-top: 96px;
-        padding-bottom: 96px;
-        
-        }
-        .customers-list-tablet{
+      
+        .customers-list{
             display: flex;
-            gap: 24px;
-        }
-        .customers-div-tablet{
-            display: flex;
-            flex-direction: column;
+           flex-wrap: wrap;
+           row-gap: 72px;
+           column-gap: 24px;
+           justify-content: center;
             align-items: center;
             align-content: center;
-            gap: 72px;
             margin-top: 72px;
           
         }
-        .customers-link-tablet{
+        .customers-link{
             display: flex;
             align-items: center;
             justify-content: center;
-        border: 1px solid var(--light-slate);
-        color: var(--light-slate);
+            border: 1px solid var(--light-slate);
+            color: var(--light-slate);
             border-radius: 4px;
             background:var(--body-background-color);
             width: 168px;
@@ -1137,21 +1118,11 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
         }
-        .customers-link-tablet:is(:hover,:focus){
+        .customers-link:is(:hover,:focus){
             border: 1px solid var(--ocean-color);
             color: var(--ocean-color);
         }
-        .svg-tablet{
-            fill: currentColor;
-        }
-        .customers-mobile{
-            display: none;
-         }
          .our-work{
-            display: none;
-         }
-        
-         .customers{
             display: none;
          }
        
@@ -1312,12 +1283,6 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     .features-div-tablet{
         display: none;
     }
-     .customers-mobile{
-        display: none;
-     }
-     .customers-tablet{
-        display: none;
-     }
      .style-footer-tablet{
         display: none;
      }
@@ -1431,15 +1396,6 @@ color: var(--slate-color);
     align-content: center;  
 }
 
-.customers-header{
-font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-color: var(--navy-blue-color);
-}
 .customers{
 padding-top: 130px;
 padding-bottom: 120px;
@@ -1453,29 +1409,6 @@ padding-bottom: 120px;
     gap: 24px;
     margin-top: 72px;
   
-}
-.customers-link{
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-border: 1px solid var(--light-slate);
-color: var(--light-slate);
-    border-radius: 4px;
-    background:var(--body-background-color);
-    width: 168px;
-height: 88px;
-transition-property:color, border;
-transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
-}
-
-.customers-link:is(:hover,:focus){
-    border: 1px solid var(--ocean-color);
-    color: var(--ocean-color);
-}
-.svg{
-    fill: currentColor;
 }
 .body{
 font-family: 'Roboto', sans-serif;

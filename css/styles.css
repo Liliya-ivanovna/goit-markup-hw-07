@@ -646,7 +646,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
                              }
                            
 /*-------------------mobile-menu------------------------*/
-@media screen and (min-width:480px) and (max-width:767px) {
+@media screen and (max-width:767px) {
     .container {
         max-width: 428px;
         padding-left: 15px;

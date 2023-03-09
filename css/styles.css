@@ -898,6 +898,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
        }
        .soc-header{
         text-align: center;
+        margin-top: 72px;
        }
      
        
@@ -1054,19 +1055,8 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
          .our-work{
             display: none;
          }
-         .footer-text{
-         margin-top: 16px;
-         width: 264px;
-         font-size: 16px;
-         line-height: 1.5;
-         letter-spacing: 0.02em;
-         color: var(--cornflower-color);
-         }
          .tablet-cont{
             display: flex;
-            align-items: center;
-            align-content: center;
-            justify-content: center;
             gap: 24px;
 
          }
@@ -1074,6 +1064,12 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
             display: flex;
             align-items: center;
             gap: 24px; 
+         }
+         .footer-container{
+            display: flex;
+            flex-direction: column;
+            gap: 72px;
+          padding-left: 108px;
          }
           
                 .footer-input{

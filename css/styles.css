@@ -329,61 +329,6 @@ transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
 
 }
-.subscribe{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;  
-    color:var(--body-background-color);
-    margin-bottom: 16px;
-}
-.subscribe-cont{
-    margin-left: 80px;
-}
-.social-media{
-    margin-left: 120px;
-}
-.footer-input{
-    border: 1px solid rgba(255, 255, 255, 0.3);
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-border-radius: 4px;
-min-width: 264px;
-height: 40px;
-font-weight: 400;
-font-size: 12px;
-line-height: 2;
-align-items: center;
-letter-spacing: 0.04em;
-color: rgba(255, 255, 255, 0.6);
-background: #2E2F42;
-padding-left: 16px;
-}
-.subscribe-btn{
-   display: flex;
-   gap: 16px;
-  fill: var(--body-background-color);
-justify-content: center;
-padding: 8px 24px;
-background: var(--iris-color);
-border-radius: 4px;
-border: none;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-align-items: center;
-letter-spacing: 0.04em;
-color: var(--body-background-color);
-transition-property: background;
-transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
-}
-.subscribe-btn:is(:hover,:focus){
-background: var(--ocean-color);
-}
-.subscribe-form{
-   display: flex;
-   gap: 24px;
-}
 .modal-form-check{
     display: flex;
     align-items: center;
@@ -634,6 +579,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
                          .social-list{
                         display: flex;
                         gap: 16px;
+                       
                             }
                             .subscribe{
                                 font-weight: 500;
@@ -931,7 +877,9 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
             align-content: center;
             justify-content: center;
         }
-        
+        .footer-text{
+            text-align: left;
+        }
        .subscribe-cont{
         display: flex;
         flex-direction: column;
@@ -948,6 +896,11 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
        gap: 16px;
      
        }
+       .soc-header{
+        text-align: center;
+       }
+     
+       
     }
      /*-----------------tablet--menu----------------*/ 
      @media screen and (min-width:768px){

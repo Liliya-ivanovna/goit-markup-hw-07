@@ -1249,6 +1249,32 @@ padding-bottom: 120px;
     gap: 24px;
     margin-top: 72px;
 }
+.tablet-cont{
+    display: flex;
+    gap: 120px;
+}
+.footer-container{
+    display: flex;
+    gap: 80px;
+}
+.subscribe-form{
+    display: flex;
+    gap: 24px;
+}
+.footer-input{
+    border: 1px solid rgba(255, 255, 255, 0.3);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+min-width: 264px;
+height: 40px;
+font-weight: 400;
+font-size: 12px;
+line-height: 2;
+letter-spacing: 0.04em;
+padding:8px 16px ;
+color: rgba(255, 255, 255, 0.6);
+background: var(--navy-blue-color);
+}
 .body{
 font-family: 'Roboto', sans-serif;
 font-weight: 500;

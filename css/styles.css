@@ -218,7 +218,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
-    width: 280px;
+    width: 300px;
     margin: 0 auto 72px;
   }
   .modal{
@@ -602,7 +602,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
                                 border: 1px solid rgba(255, 255, 255, 0.3);
                             filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
                             border-radius: 4px;
-                            min-width: 298 px;
+                            min-width: 300px;
                             height: 40px;
                             font-weight: 400;
                             font-size: 12px;
@@ -638,7 +638,13 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
                              background: var(--ocean-color);
                              }
                              /*-------------320px----------*/
-                           
+                             .container {
+                                max-width: 320px;
+                                padding-left: 15px;
+                                padding-right: 15px;
+                                margin-left: auto;
+                                margin-right: auto;
+                              }
                             
                              .header-address {
                                 display: none;

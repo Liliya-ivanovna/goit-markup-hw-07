@@ -218,6 +218,16 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
       background-color: var(--ocean-color);
       left: 0;
   }
+  .headline {
+    color: var(--body-background-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    width: 280px;
+    margin: 0 auto 72px;
+  }
   .modal{
     position: absolute;
     min-height: 576px;

@@ -641,6 +641,25 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
                         {
                             display: none;
                         }
+                        .phone-number-mobile{
+                            font-weight: 700;
+                        font-size: 24px;
+                        line-height: 2;
+                        letter-spacing: normal;
+                        color: var(--slate-color);
+                        text-decoration: none;
+                        transition-property: color;
+                        transition-duration: 250ms;
+                        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+                        }
+                        .phone-number-mobile:is(:hover,:focus){
+                          color: var(--iris-color);  
+                        }
+                        .soc-mobile{
+                            display: flex;
+                            gap: 40px;
+                        }
+                        
                         .headline {
                             color: var(--body-background-color);
                             font-weight: 700;

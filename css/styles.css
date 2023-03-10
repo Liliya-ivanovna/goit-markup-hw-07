@@ -1103,11 +1103,6 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     flex-direction: column;
     gap: 72px ;
 }
-.features-div-tablet{
-    display: flex;
-    flex-direction: column;
-    gap: 72px;
-}
 .features-header-mobile{
     font-weight: 700;
     font-size: 36px;
@@ -1310,15 +1305,10 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         }
         .features-list-tablet{
             display: flex;
-          gap:24px;
-            align-content: center;
+            flex-wrap: wrap;
+          gap: 72px 24px;
+          justify-content: center;
         }
-       .features-div-tablet{
-        display: flex;
-        flex-direction: column;
-        gap: 72px;
-        
-       }
        .team{
         display: flex;
     gap: 24px;

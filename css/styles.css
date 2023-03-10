@@ -792,21 +792,6 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
                         .link-mail-post-mobile:is(:hover,:focus){
                             color:var(--iris-color);
                         }
-                        .phone-number-mobile{
-                            font-weight: 700;
-                        font-size: 36px;
-                        line-height: 1.11;
-                        letter-spacing: normal;
-                        color: var(--slate-color);
-                        text-decoration: none;
-                        width: 280px;
-                        transition-property: color;
-                        transition-duration: 250ms;
-                        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-                        }
-                        .phone-number-mobile:is(:hover,:focus){
-                          color: var(--iris-color);  
-                        }
                         .social-link:is(:hover,:focus){
                             background:var(--ocean-color);
                         }

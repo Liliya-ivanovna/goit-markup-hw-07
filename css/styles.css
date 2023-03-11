@@ -1355,17 +1355,15 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
          .tablet-cont{
             display: flex;
         gap: 24px;
-       align-content: center;
-       align-items: center;
+     
           justify-content: center;  
          }
          .footer-container{
             display: flex;
            flex-wrap: wrap;
             gap: 72px;
-            align-items: center;
-            align-content: center;
-           
+         
+           justify-content: center;
          }
           
                 .footer-input{

@@ -1347,7 +1347,6 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
          }
          .subscribe-form{
             display: flex;
-           
             gap: 24px; 
          }
          .tablet-cont{
@@ -1359,11 +1358,11 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
          }
          .footer-container{
             display: flex;
-            flex-direction: column;
+           flex-wrap: wrap;
             gap: 72px;
             align-items: center;
             align-content: center;
-            justify-content: center;
+           
          }
           
                 .footer-input{

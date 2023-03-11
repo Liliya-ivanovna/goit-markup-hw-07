@@ -748,7 +748,6 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
                             display: flex;
                             flex-direction: column;
                             gap: 40px;
-                           padding-top: 80px;
                         }
                 
                     .container-menu{
@@ -1031,6 +1030,11 @@ pointer-events: auto;
     flex-direction: column;
     gap: 40px;
 }
+.address-soc-list{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
 
 .mobile-menu-link{
     font-weight: 700;
@@ -1099,7 +1103,6 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 .soc-mobile{
     display: flex;
     gap: 56px;
-    margin-top: 48px;
 }
 
 .features-mobile{

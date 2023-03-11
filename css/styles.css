@@ -1437,7 +1437,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     gap:40px;
  }
 .headline-desktop{ 
-font-weight: 700;
+text-align: center;
 font-size: 56px;
 line-height: 1.07;
 letter-spacing: 0.02em;

@@ -615,6 +615,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
                              .subscribe-btn:is(:hover,:focus){
                              background: var(--ocean-color);
                              }
+                             
                              /*-------------320px----------*/
                              @media screen and (max-width:479px){
                                 
@@ -890,10 +891,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
                                gap: 16px;
                              
                                }
-                               .soc-header{
-                                text-align: center;
-                                margin-top: 72px;
-                               }
+                              
                                .footer-input{
                                 border: 1px solid rgba(255, 255, 255, 0.3);
                             filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -1337,21 +1335,21 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
          .our-work{
             display: none;
          }
-         .tablet-cont{
-            display: flex;
-            gap: 24px;
-
-         }
          .subscribe-form{
             display: flex;
+            justify-content: center;
             align-items: center;
+            align-content: center;
             gap: 24px; 
+         }
+         .footer-logo{
+            width: 264px;
          }
          .footer-container{
             display: flex;
-            flex-direction: column;
-            gap: 72px;
-          padding-left: 108px;
+            flex-wrap: wrap;
+           justify-content: center;
+            gap:72px 24px;
          }
           
                 .footer-input{

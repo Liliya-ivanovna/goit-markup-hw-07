@@ -709,13 +709,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
                             transition-duration: 250ms;
                             transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
                         }
-                        .mobile-menu > .container{
-                            height: 100%;
-                            display: flex;
-                            flex-direction: column;
-                            justify-content: space-between;
-                            overflow-y:auto ;
-                        }
+                      
                         .mobile-menu.is-open{
                         opacity: 1;
                         visibility: visible;
@@ -756,7 +750,18 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
                             gap: 40px;
                            padding-top: 80px;
                         }
-                        
+                
+                    .container-menu{
+                        height: 100%;
+                        display: flex;
+                        position: relative;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        overflow-y:auto ;
+                        padding-top: 80px;
+                        padding-bottom: 40px;
+                        padding-left: 40px;
+                    }
                         .mobile-menu-link{
                             font-weight: 700;
                             font-size: 36px;

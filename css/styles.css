@@ -1347,17 +1347,20 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
            
             gap: 24px; 
          }
-         .footer-logo{
-            width: 264px;
-         }
-       
-         .footer-container{
+         .tablet-cont{
             display: flex;
-            flex-wrap: wrap;
-        gap: 72px 24px;
+        gap: 24px;
        align-content: center;
        align-items: center;
-            
+          justify-content: center;  
+         }
+         .footer-container{
+            display: flex;
+            flex-direction: column;
+            gap: 72px;
+            align-items: center;
+            align-content: center;
+            justify-content: center;
          }
           
                 .footer-input{
